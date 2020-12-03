@@ -1,7 +1,7 @@
 # GAN-Image-Super-Resolution
 * Part of a **PROJECT**
 * **Image Super-Resolution Using a Generative Adversarial Network** (**SR-GAN**)
-* Tensorflow 2.3
+* **Keras** implementation on top of Tensorflow 2.3
 
 ### SR-GAN Architecture
 
@@ -12,7 +12,7 @@
  Fork the repository.
  
  
- Dump the HR(**High-Resolution**)image under `Data/HR/` and LR(**Low-Resolution**)image under `Data/LR/`.
+ Dump the HR(**High-Resolution**) images under `Data/HR/` and LR(**Low-Resolution**) images under `Data/LR/`.
  
 Make sure about 
         
@@ -27,12 +27,19 @@ Model will get saved in `checkpoint` folder in running EPOCHS.
 
 
 ### Results
+* Note:
+   1. LRI- Low Resolution Input 
+   2. HRP- High Resolution Prediction
+   3. RHR- Reference High Resolution Image
+   
+   
+-------------  **LRI**--------------------------- **HRP** ------------------------ **RHR** --------------
 
-<img src="samples/results/inp_LR.png" width="200"/> LRI <img src="samples/results/predict_HR.png" width="200"/> HRP <img src="samples/results/ref_HR.png" width="200"/>  HRO
+<img src="samples/results/inp_LR.png" width="200"/> <img src="samples/results/predict_HR.png" width="200"/> <img src="samples/results/ref_HR.png" width="200"/> 
 
 <br>
 
-<img src="samples/results/inp_LR1.png" width="200"/> LRI <img src="samples/results/predict_HR1.png" width="200"/> HRP <img src="samples/results/ref_HR1.png" width="200"/>  HRO
+<img src="samples/results/inp_LR1.png" width="200"/> <img src="samples/results/predict_HR1.png" width="200"/>  <img src="samples/results/ref_HR1.png" width="200"/> 
 
 
 
