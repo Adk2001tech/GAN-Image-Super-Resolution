@@ -5,8 +5,28 @@
 
 ### SR-GAN Architecture
 
+<img src="samples/results/model.jpeg" width="800"/>
+
+### Train on your own Data
+
+ Fork the repository.
+ 
+ 
+ Dump the HR(**High-Resolution**)image under `Data/HR/` and LR(**Low-Resolution**)image under `Data/LR/`.
+ 
+Make sure about 
+        
+        HR Images (Totall sample, 96*4, 96*4, 3)
+        LR Images (Totall sample, 96, 96, 3)
+        
+Run the following in command prompt in current dir for traning
+        
+        python train.py
+
+Model will get saved in `checkpoint` folder in running EPOCHS.
 
 
+### Results
 
 <img src="samples/results/inp_LR.png" width="200"/> LRI <img src="samples/results/predict_HR.png" width="200"/> HRP <img src="samples/results/ref_HR.png" width="200"/>  HRO
 
