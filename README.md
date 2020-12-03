@@ -28,9 +28,9 @@ Model will get saved in `checkpoint` folder in running EPOCHS.
 
 ### Results
 * Note:
-   1. LRI- Low Resolution Input 
-   2. HRP- High Resolution Prediction
-   3. RHR- Reference High Resolution Image
+   1. LRI- Low Resolution Input (96x96x3)
+   2. HRP- High Resolution Prediction (384x384x3)
+   3. RHR- Reference High Resolution Image(384x384x3)
    
    
 -------------  **LRI**--------------------------- **HRP** ------------------------ **RHR** --------------
