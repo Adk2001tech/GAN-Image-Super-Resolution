@@ -8,6 +8,7 @@ Image Super-Resolution Using a Generative Adversarial Network
   <div class="column">
     <img src="samples/results/predict_HR.png" alt="predicted high resolution image" width="200">
   </div>
+  
   <div class="column">
     <img src="samples/results/ref_HR.png" alt="high resolution image" width="200">
   </div>
