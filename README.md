@@ -1,7 +1,9 @@
 # GAN-Image-Super-Resolution
+
+#### End-to-End *Keras implementation on top of Tensorflow 2.3*
 * Part of a **[Biometric-Backdoors](https://github.com/Adk2001tech/Biometric-Backdoors)** research project.
 * **Image Super-Resolution Using a Generative Adversarial Network** (**SR-GAN**)
-* **Keras** implementation on top of Tensorflow 2.3
+
 
 ### SR-GAN Architecture
 
