@@ -35,6 +35,10 @@ Model will get saved in `checkpoint` folder in running EPOCHS.
    
 -------------  **LRI**--------------------------- **HRP** ------------------------ **RHR** --------------
 
+<img src="samples/results/inp_LR2.png" width="200"/> <img src="samples/results/predict_HR2.png" width="200"/> <img src="samples/results/ref_HR2.png" width="200"/> 
+
+<br>
+
 <img src="samples/results/inp_LR.png" width="200"/> <img src="samples/results/predict_HR.png" width="200"/> <img src="samples/results/ref_HR.png" width="200"/> 
 
 <br>
