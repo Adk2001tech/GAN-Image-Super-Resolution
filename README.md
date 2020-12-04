@@ -19,7 +19,7 @@ Make sure about
         HR Images (Totall sample, 96*4, 96*4, 3)
         LR Images (Totall sample, 96, 96, 3)
         
-Run the following in command prompt in current dir for traning
+Change `tot_sample=Totall sample in traning data` and  Run the following code in current directory for TRANING.
         
         python train.py
 
@@ -41,6 +41,10 @@ Model will get saved in `checkpoint` folder in running EPOCHS.
 
 <img src="samples/results/inp_LR1.png" width="200"/> <img src="samples/results/predict_HR1.png" width="200"/>  <img src="samples/results/ref_HR1.png" width="200"/> 
 
+
+### Data
+* Download data from [DIV2K - bicubic downscaling x4 competition](http://www.vision.ee.ethz.ch/ntire17/) dataset.
+* Other direct links:  [test\_LR\_bicubic_X4](https://data.vision.ee.ethz.ch/cvl/DIV2K/validation_release/DIV2K_test_LR_bicubic_X4.zip), [train_HR](https://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_train_HR.zip), [train\_LR\_bicubic_X4](https://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_train_LR_bicubic_X4.zip), [valid_HR](https://data.vision.ee.ethz.ch/cvl/DIV2K/validation_release/DIV2K_valid_HR.zip), [valid\_LR\_bicubic_X4](https://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_valid_LR_bicubic_X4.zip).
 
 
 ### References
